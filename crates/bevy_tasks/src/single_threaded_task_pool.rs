@@ -111,7 +111,7 @@ impl TaskPool {
     }
 }
 
-#[derive(Debug)]
+#[derive(Component, Debug)]
 pub struct FakeTask;
 
 impl FakeTask {
